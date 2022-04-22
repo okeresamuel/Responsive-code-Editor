@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.1">
+    <title>text editor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="text">
+        <div class="text"><h1> Editor:)</h1>
+    <button id="background">change background color</button>
+       </div>
+        </section>
+            <div class="code-area">
+                <textarea  id="htmlCode" cols="30" rows="10" placeholder="your html code" oninput="showPreview()"></textarea>
+                <button class="htmlCode">fullscreen</button>
+                              <button id="exitone" class="exit">exit</button>
+              <hr>
+                <textarea id="cssCode" cols="30" rows="10" placeholder="your css code" oninput="showPreview()"></textarea>
+                <button class="cssCode">fullscreen</button>
+              <button id="exittwo" class="exit">exit</button> 
+              <hr>
+                <textarea id="jsCode" cols="30" rows="10" placeholder="your js code" oninput="showPreview()"></textarea>
+                <button class="jsCode">fullscreen</button>
+               <button id="exitthree" class="exit">exit</button>
+              <hr>
+            </div>
+             <iframe id="preview-window" class="preview"></iframe>
+         <p>👋Desktop view better experience</p>
+  </main>
+  <script src="editor.js"></script> 
+</body>
+</html>
+
