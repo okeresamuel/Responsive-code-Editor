@@ -178,12 +178,15 @@ hr{
 button{
     color:white;
     padding-top:5px 6px 5px 6px;
+    Border:none;
+    Outline:none;
+    -webkit-tap-highlight-color:transparent;
     border-radius:4px;
     margin:0 6px;
     background-color: black;
     cursor: pointer;
     transition:300ms ease-in;
-   
+    
 }
 #background{
     width:80%;
